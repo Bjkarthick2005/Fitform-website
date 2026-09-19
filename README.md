@@ -6,13 +6,13 @@ The website provides information about the company, uniform categories, franchis
 
 ## 🌐 Website
 
-Live Website: Add your Netlify URL here
+Live Website: https://fitformwebsite.netlify.app/
 
-Example:
 
-https://fitformwebsite.netlify.app/
 
----
+
+
+
 
 ## 📌 About the Project
 
