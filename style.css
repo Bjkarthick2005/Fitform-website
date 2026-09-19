@@ -10,7 +10,7 @@
 
 body {
     font-family: Arial, sans-serif;
-    background-color: #f5f7fa;
+    background-color: #F7F7F5;
     color: #222;
 }
 
@@ -56,7 +56,7 @@ body {
 
 .logo {
     text-decoration: none;
-    color: #123456;
+    color: #0B2638;
     font-size: 24px;
     font-weight: bold;
     line-height: 1;
@@ -89,7 +89,7 @@ body {
 }
 
 .nav-menu a:hover {
-    color: #123456;
+    color: #0B2638;
 }
 
 
@@ -99,7 +99,7 @@ body {
 
 .nav-button {
     text-decoration: none;
-    background-color: #123456;
+    background-color: #0B2638;
     color: #ffffff;
     padding: 12px 20px;
     border-radius: 5px;
@@ -109,7 +109,7 @@ body {
 }
 
 .nav-button:hover {
-    background-color: #0b263f;
+    background-color: #071C2C;
 }
 
 /* ==============================
@@ -120,7 +120,7 @@ body {
     position: relative;
     width: 100%;
     min-height: 620px;
-    background-color: #f5f7fa;
+    background-color: #071C2C;
     overflow: hidden;
 }
 
@@ -157,7 +157,7 @@ body {
 /* Hero Subtitle */
 
 .hero-subtitle {
-    color: #123456;
+    color: #0B2638;
     font-size: 14px;
     font-weight: 700;
     letter-spacing: 2px;
@@ -170,13 +170,13 @@ body {
 .hero-content h1 {
     font-size: 48px;
     line-height: 1.1;
-    color: #17202a;
+    color: #071C2C;
     margin-bottom: 25px;
 }
 
 .hero-content h1 span {
     display: block;
-    color: #123456;
+    color: #0B2638;
 }
 
 
@@ -216,12 +216,12 @@ body {
 /* Primary Button */
 
 .primary-button {
-    background-color: #123456;
+    background-color: #0B2638;
     color: #ffffff;
 }
 
 .primary-button:hover {
-    background-color: #0b263f;
+    background-color: #071C2C;
     transform: translateY(-2px);
 }
 
@@ -229,13 +229,13 @@ body {
 /* Secondary Button */
 
 .secondary-button {
-    border: 1px solid #123456;
-    color: #123456;
+    border: 1px solid #0B2638;
+    color: #0B2638;
     background-color: #ffffff;
 }
 
 .secondary-button:hover {
-    background-color: #123456;
+    background-color: #0B2638;
     color: #ffffff;
     transform: translateY(-2px);
 }
@@ -336,8 +336,19 @@ body {
         /* Footer */
 
     .footer {
-        padding: 50px 0 20px;
-    }
+    background-color: #071C2C;
+
+    background-image:
+        linear-gradient(
+            rgba(7, 28, 44, 0.88),
+            rgba(7, 28, 44, 0.88)
+        ),
+        url("../images/footer-bg.jpg");
+
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
 
     .footer-container {
         grid-template-columns: 1fr;
@@ -437,7 +448,7 @@ body {
 }
 
 .section-subtitle {
-    color: #123456;
+    color: #0B2638;
     font-size: 13px;
     font-weight: bold;
     letter-spacing: 2px;
@@ -447,7 +458,7 @@ body {
 .section-heading h2 {
     font-size: 38px;
     line-height: 1.2;
-    color: #17202a;
+    color: #071C2C;
     margin-bottom: 18px;
 }
 
@@ -467,7 +478,7 @@ body {
 }
 
 .feature-card {
-    background-color: #f5f7fa;
+    background-color: #F7F7F5;
     padding: 35px 25px;
     border-radius: 8px;
     text-align: center;
@@ -487,7 +498,7 @@ body {
     width: 55px;
     height: 55px;
     margin: 0 auto 20px;
-    background-color: #123456;
+    background-color: #0B2638;
     color: #ffffff;
     border-radius: 50%;
 
@@ -504,7 +515,7 @@ body {
 
 .feature-card h3 {
     font-size: 19px;
-    color: #17202a;
+    color: #071C2C;
     margin-bottom: 12px;
 }
 
@@ -520,7 +531,7 @@ body {
    ============================== */
 
 .products {
-    background-color: #f5f7fa;
+    background-color: #F7F7F5;
     padding: 90px 0;
 }
 
@@ -579,7 +590,7 @@ body {
 
 .product-content h3 {
     font-size: 20px;
-    color: #17202a;
+    color: #071C2C;
     margin-bottom: 12px;
 }
 
@@ -591,7 +602,7 @@ body {
 }
 
 .product-content a {
-    color: #123456;
+    color: #0B2638;
     text-decoration: none;
     font-size: 14px;
     font-weight: bold;
@@ -624,7 +635,7 @@ body {
 /* Contact Information */
 
 .contact-info {
-    background-color: #f5f7fa;
+    background-color: #F7F7F5;
     padding: 40px;
     border-radius: 8px;
 }
@@ -632,7 +643,7 @@ body {
 .contact-info h3,
 .contact-message h3 {
     font-size: 28px;
-    color: #17202a;
+    color: #071C2C;
     margin-bottom: 15px;
 }
 
@@ -662,7 +673,7 @@ body {
     align-items: center;
     justify-content: center;
 
-    background-color: #123456;
+    background-color: #0B2638;
     color: #ffffff;
 
     border-radius: 50%;
@@ -672,7 +683,7 @@ body {
 }
 
 .contact-item h4 {
-    color: #17202a;
+    color: #071C2C;
     font-size: 16px;
     margin-bottom: 5px;
 }
@@ -687,7 +698,7 @@ body {
 /* Right Side */
 
 .contact-message {
-    background-color: #123456;
+    background-color: #0B2638;
     color: #ffffff;
     padding: 50px;
     border-radius: 8px;
@@ -717,7 +728,7 @@ body {
     text-decoration: none;
 
     background-color: #ffffff;
-    color: #123456;
+    color: #0B2638;
 
     padding: 14px 25px;
     margin-top: 12px;
@@ -740,7 +751,7 @@ body {
    ============================== */
 
 .footer {
-    background-color: #17202a;
+    background-color: #071C2C;
     color: #ffffff;
     padding: 70px 0 20px;
 }
@@ -835,7 +846,7 @@ body {
 /* Footer Bottom */
 
 .footer-bottom {
-    border-top: 1px solid #34404c;
+    border-top: 1px solid #243B4A;
 
     padding-top: 20px;
 
@@ -852,31 +863,75 @@ body {
    ============================== */
 
 
-/* About Hero */
+/* =========================
+   ABOUT HERO
+========================= */
 
 .about-hero {
-    background-color: #f5f7fa;
-    padding: 90px 0;
+    min-height: 600px;
+    display: flex;
+    align-items: center;
+    position: relative;
+
+    background-image:
+        linear-gradient(
+            90deg,
+            #ffffff 0%,
+            #ffffff 38%,
+            rgba(255, 255, 255, 0.96) 45%,
+            rgba(255, 255, 255, 0.45) 55%,
+            rgba(255, 255, 255, 0) 68%
+        ),
+        url("../images/about-hero.png");
+
+    background-size: cover;
+    background-position: right;
+    background-repeat: no-repeat;
 }
+
+
+/* TEXT AREA */
 
 .about-hero-content {
-    max-width: 800px;
+    width: 43%;
+    max-width: 560px;
+    padding: 80px 0;
+    position: left;
+    z-index: 2;
 }
+
+
+/* SUBTITLE */
+
+.about-hero-content .section-subtitle {
+    color: #d99d16;
+    font-size: 15px;
+    font-weight: 700;
+    letter-spacing: 3px;
+    margin-bottom: 18px;
+}
+
+
+/* HEADING */
 
 .about-hero-content h1 {
-    font-size: 50px;
-    line-height: 1.15;
-    color: #17202a;
-    margin-bottom: 25px;
+    color: #092c50;
+    font-size: 48px;
+    line-height: 1.12;
+    margin: 0 0 25px 0;
+    max-width: 560px;
 }
+
+
+/* DESCRIPTION */
 
 .about-hero-content > p:last-child {
-    color: #666;
+    color: #34495e;
     font-size: 17px;
-    line-height: 1.8;
-    max-width: 700px;
+    line-height: 1.7;
+    max-width: 530px;
+    margin: 0;
 }
-
 
 /* About Company */
 
@@ -907,7 +962,7 @@ body {
 .about-content h2 {
     font-size: 38px;
     line-height: 1.2;
-    color: #17202a;
+    color: #071C2C;
     margin-bottom: 25px;
 }
 
@@ -922,7 +977,7 @@ body {
 /* Our Approach */
 
 .about-approach {
-    background-color: #f5f7fa;
+    background-color: #F7F7F5;
     padding: 90px 0;
 }
 
@@ -953,7 +1008,7 @@ body {
     align-items: center;
     justify-content: center;
 
-    background-color: #123456;
+    background-color: #0B2638;
     color: #ffffff;
 
     border-radius: 50%;
@@ -965,7 +1020,7 @@ body {
 }
 
 .approach-card h3 {
-    color: #17202a;
+    color: #071C2C;
     font-size: 18px;
     margin-bottom: 12px;
 }
@@ -992,13 +1047,13 @@ body {
 
 .value-card {
     padding: 30px;
-    background-color: #f5f7fa;
+    background-color: #F7F7F5;
     border-radius: 8px;
     border: 1px solid #eeeeee;
 }
 
 .value-card h3 {
-    color: #123456;
+    color: #0B2638;
     font-size: 20px;
     margin-bottom: 12px;
 }
@@ -1013,7 +1068,7 @@ body {
 /* About CTA */
 
 .about-cta {
-    background-color: #123456;
+    background-color: #0B2638;
     padding: 80px 0;
 }
 
@@ -1039,7 +1094,7 @@ body {
 
 .about-cta-content .primary-button {
     background-color: #ffffff;
-    color: #123456;
+    color: #0B2638;
 }
 
 .about-cta-content .primary-button:hover {
@@ -1122,7 +1177,7 @@ body {
 
 /* Call */
 .call-float {
-    background-color: #123456;
+    background-color: #0B2638;
     color: #ffffff;
 }
 
@@ -1130,7 +1185,7 @@ body {
 /* Back to Top */
 .top-float {
     background-color: #ffffff;
-    color: #123456;
+    color: #0B2638;
     border: 1px solid #dddddd;
     display: none;
 }
@@ -1173,7 +1228,7 @@ body {
 ========================= */
 
 .contact-hero {
-    background-color: #f5f7fa;
+    background-color: #F7F7F5;
     padding: 90px 0;
 }
 
@@ -1184,13 +1239,13 @@ body {
 .contact-hero-content h1 {
     font-size: 50px;
     line-height: 1.15;
-    color: #17202a;
+    color: #071C2C;
     margin-bottom: 25px;
 }
 
 .contact-hero-content h1 span {
     display: block;
-    color: #123456;
+    color: #0B2638;
 }
 
 .contact-hero-content > p:last-child {
@@ -1217,7 +1272,7 @@ body {
 }
 
 .contact-card {
-    background-color: #f5f7fa;
+    background-color: #F7F7F5;
     border: 1px solid #eeeeee;
     border-radius: 8px;
     padding: 35px 25px;
@@ -1234,7 +1289,7 @@ body {
     width: 55px;
     height: 55px;
     margin: 0 auto 20px;
-    background-color: #123456;
+    background-color: #0B2638;
     color: #ffffff;
     border-radius: 50%;
     display: flex;
@@ -1244,7 +1299,7 @@ body {
 }
 
 .contact-card h3 {
-    color: #17202a;
+    color: #071C2C;
     font-size: 19px;
     margin-bottom: 12px;
 }
@@ -1257,7 +1312,7 @@ body {
 }
 
 .contact-card a {
-    color: #123456;
+    color: #0B2638;
     text-decoration: none;
     font-size: 14px;
     font-weight: 600;
@@ -1273,8 +1328,14 @@ body {
 ========================= */
 
 .contact-enquiry {
-    background-color: #123456;
-    padding: 90px 0;
+    background-image:
+        linear-gradient(rgba(7, 28, 44, 0.78), rgba(7, 28, 44, 0.78)),
+        url("../images/uniform-requirements-bg.png");
+
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
 }
 
 .contact-enquiry-container {
@@ -1310,7 +1371,7 @@ body {
 
 .contact-enquiry-buttons .primary-button {
     background-color: #ffffff;
-    color: #123456;
+    color: #0B2638;
 }
 
 .contact-enquiry-buttons .primary-button:hover {
@@ -1339,7 +1400,7 @@ body {
 ========================= */
 
 .contact-location {
-    background-color: #f5f7fa;
+    background-color: #F7F7F5;
     padding: 90px 0;
 }
 
@@ -1362,7 +1423,7 @@ body {
 }
 
 .map-placeholder h3 {
-    color: #17202a;
+    color: #071C2C;
     font-size: 22px;
     margin-bottom: 10px;
 }
@@ -1444,7 +1505,7 @@ body {
     align-items: center;
     gap: 12px;
     text-decoration: none;
-    color: #123456;
+    color: #0B2638;
 }
 
 .logo img {
@@ -1461,7 +1522,7 @@ body {
 }
 
 .logo-text strong {
-    color: #123456;
+    color: #0B2638;
     font-size: 18px;
     font-weight: 700;
     letter-spacing: 0.5px;
@@ -1480,10 +1541,26 @@ body {
 ============================== */
 
 .franchise-hero {
-    background-color: #f5f7fa;
-    padding: 90px 0;
-}
+    min-height: 500px;
 
+    display: flex;
+    align-items: center;
+
+    position: relative;
+
+    background-image:
+        linear-gradient(
+            rgba(5, 25, 55, 0.72),
+            rgba(5, 25, 55, 0.72)
+        ),
+        url("../images/franchise-hero.png");
+
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    color: #ffffff;
+}
 .franchise-hero-content {
     max-width: 850px;
 }
@@ -1491,13 +1568,13 @@ body {
 .franchise-hero-content h1 {
     font-size: 50px;
     line-height: 1.15;
-    color: #17202a;
+    color: #071C2C;
     margin-bottom: 25px;
 }
 
 .franchise-hero-content h1 span {
     display: block;
-    color: #123456;
+    color: #0B2638;
 }
 
 .franchise-hero-content > p:last-child {
@@ -1530,7 +1607,7 @@ body {
 .franchise-intro-content h2 {
     font-size: 40px;
     line-height: 1.2;
-    color: #17202a;
+    color: #071C2C;
     margin-bottom: 20px;
 }
 
@@ -1545,7 +1622,7 @@ body {
 /* Highlight Box */
 
 .franchise-highlight {
-    background-color: #123456;
+    background-color: #0B2638;
     color: #ffffff;
     padding: 40px;
     border-radius: 10px;
@@ -1586,7 +1663,7 @@ body {
 ============================== */
 
 .franchise-benefits {
-    background-color: #f5f7fa;
+    background-color: #F7F7F5;
     padding: 90px 0;
 }
 
@@ -1615,7 +1692,7 @@ body {
     height: 55px;
     margin: 0 auto 20px;
 
-    background-color: #123456;
+    background-color: #0B2638;
     color: #ffffff;
 
     border-radius: 50%;
@@ -1629,7 +1706,7 @@ body {
 }
 
 .benefit-card h3 {
-    color: #17202a;
+    color: #071C2C;
     font-size: 19px;
     margin-bottom: 12px;
 }
@@ -1666,7 +1743,7 @@ body {
 }
 
 .franchise-form-intro h2 {
-    color: #17202a;
+    color: #071C2C;
     font-size: 40px;
     line-height: 1.2;
     margin-bottom: 20px;
@@ -1683,15 +1760,15 @@ body {
 /* Note Box */
 
 .franchise-note {
-    background-color: #f5f7fa;
-    border-left: 4px solid #123456;
+    background-color: #F7F7F5;
+    border-left: 4px solid #0B2638;
     padding: 20px;
     margin-top: 30px;
 }
 
 .franchise-note strong {
     display: block;
-    color: #123456;
+    color: #0B2638;
     font-size: 16px;
     margin-bottom: 8px;
 }
@@ -1709,7 +1786,7 @@ body {
 ============================== */
 
 .franchise-form {
-    background-color: #f5f7fa;
+    background-color: #F7F7F5;
     padding: 40px;
     border-radius: 10px;
     border: 1px solid #eeeeee;
@@ -1722,7 +1799,7 @@ body {
 
 .form-group label {
     display: block;
-    color: #17202a;
+    color: #071C2C;
     font-size: 14px;
     font-weight: 600;
     margin-bottom: 8px;
@@ -1751,7 +1828,7 @@ body {
 .form-group input:focus,
 .form-group select:focus,
 .form-group textarea:focus {
-    border-color: #123456;
+    border-color: #0B2638;
     box-shadow: 0 0 0 3px rgba(18, 52, 86, 0.08);
 }
 
@@ -1775,7 +1852,7 @@ body {
 
     padding: 15px 25px;
 
-    background-color: #123456;
+    background-color: #0B2638;
     color: #ffffff;
 
     border: none;
@@ -1790,7 +1867,7 @@ body {
 }
 
 .franchise-submit:hover {
-    background-color: #0b263f;
+    background-color: #071C2C;
     transform: translateY(-2px);
 }
 
@@ -1800,7 +1877,7 @@ body {
 ============================== */
 
 .franchise-cta {
-    background-color: #123456;
+    background-color: #0B2638;
     padding: 90px 0;
 }
 
@@ -1837,7 +1914,7 @@ body {
 
 .franchise-cta-buttons .primary-button {
     background-color: #ffffff;
-    color: #123456;
+    color: #0B2638;
 }
 
 .franchise-cta-buttons .primary-button:hover {
@@ -2307,9 +2384,18 @@ img {
     }
 
     /* FOOTER */
-    .footer {
-        padding: 50px 0 20px;
-    }
+   .footer {
+    background-image:
+        linear-gradient(
+            rgba(7, 28, 44, 0.65),
+            rgba(7, 28, 44, 0.65)
+        ),
+        url("../images/footer-bg.png");
+
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
 
     .footer-container {
         grid-template-columns: 1fr;
@@ -2422,4 +2508,1062 @@ img {
         border-radius: 50%;
         justify-content: center;
     }
+}
+
+.success-message {
+    display: none;
+    margin-top: 20px;
+    padding: 15px 20px;
+    background: #e8f7ee;
+    color: #1b7a3d;
+    border: 1px solid #b7e4c7;
+    border-radius: 8px;
+    text-align: center;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+/* ==========================================================
+   FITFORM INDUSTRIES PRIVATE LIMITED
+   PREMIUM NAVY + GOLD THEME
+   Reference-inspired color update
+   ========================================================== */
+
+:root {
+    --fitform-navy: #071C2C;
+    --fitform-navy-2: #0B2638;
+    --fitform-gold: #D9A52E;
+    --fitform-gold-light: #F2C65C;
+    --fitform-white: #FFFFFF;
+    --fitform-light: #F7F7F5;
+    --fitform-text: #333333;
+}
+
+/* Main accent headings */
+.hero-subtitle,
+.section-subtitle {
+    color: var(--fitform-gold) !important;
+}
+
+/* Home hero */
+.hero {
+    background-color: var(--fitform-navy) !important;
+}
+
+.hero-content h1 {
+    color: var(--fitform-white) !important;
+}
+
+.hero-content h1 span {
+    color: var(--fitform-gold) !important;
+}
+
+.hero-description {
+    color: #E9EEF2 !important;
+}
+
+/* Navigation */
+.nav-button {
+    background-color: var(--fitform-gold) !important;
+    color: var(--fitform-navy) !important;
+}
+
+.nav-button:hover {
+    background-color: var(--fitform-gold-light) !important;
+    color: var(--fitform-navy) !important;
+}
+
+/* Main buttons */
+.primary-button,
+.franchise-submit {
+    background-color: var(--fitform-gold) !important;
+    color: var(--fitform-navy) !important;
+}
+
+.primary-button:hover,
+.franchise-submit:hover {
+    background-color: var(--fitform-gold-light) !important;
+    color: var(--fitform-navy) !important;
+}
+
+/* Secondary hero buttons */
+.secondary-button {
+    border-color: var(--fitform-gold) !important;
+    color: var(--fitform-gold) !important;
+    background-color: transparent !important;
+}
+
+.secondary-button:hover {
+    background-color: var(--fitform-gold) !important;
+    color: var(--fitform-navy) !important;
+}
+
+/* Navy feature/icon circles with gold accents */
+.feature-icon,
+.approach-icon,
+.benefit-icon,
+.contact-icon,
+.contact-card-icon {
+    background-color: var(--fitform-gold) !important;
+    color: var(--fitform-navy) !important;
+}
+
+/* Gold links */
+.product-content a,
+.contact-card a {
+    color: var(--fitform-gold) !important;
+}
+
+.product-content a:hover,
+.contact-card a:hover {
+    color: var(--fitform-navy) !important;
+}
+
+/* Navy CTA / enquiry blocks */
+.contact-message,
+.contact-enquiry,
+.about-cta,
+.franchise-highlight,
+.franchise-cta {
+    background-color: var(--fitform-navy) !important;
+}
+
+/* CTA buttons on navy backgrounds */
+.contact-enquiry-buttons .primary-button,
+.about-cta-content .primary-button,
+.franchise-cta-buttons .primary-button {
+    background-color: var(--fitform-gold) !important;
+    color: var(--fitform-navy) !important;
+}
+
+.contact-enquiry-buttons .primary-button:hover,
+.about-cta-content .primary-button:hover,
+.franchise-cta-buttons .primary-button:hover {
+    background-color: var(--fitform-gold-light) !important;
+}
+
+/* Franchise note */
+.franchise-note {
+    border-left-color: var(--fitform-gold) !important;
+}
+
+.franchise-note strong,
+.value-card h3 {
+    color: var(--fitform-gold) !important;
+}
+
+/* Form focus */
+.form-group input:focus,
+.form-group select:focus,
+.form-group textarea:focus {
+    border-color: var(--fitform-gold) !important;
+    box-shadow: 0 0 0 3px rgba(217, 165, 46, 0.14) !important;
+}
+
+/* Gold divider feel on section headings */
+.section-heading h2::after {
+    background-color: var(--fitform-gold);
+}
+
+/* Footer */
+.footer {
+    background-color: var(--fitform-navy) !important;
+}
+
+.footer-bottom {
+    border-top-color: #243B4A !important;
+}
+
+/* Keep WhatsApp branding green */
+.whatsapp-float,
+.whatsapp-page-button {
+    background-color: #25D366 !important;
+}
+
+/* Success message stays green */
+.success-message {
+    background: #e8f7ee;
+    color: #1b7a3d;
+    border-color: #b7e4c7;
+}
+
+/* =========================================
+   FOOTER BACKGROUND IMAGE
+========================================= */
+
+.footer {
+    background-color: #071C2C !important;
+
+    background-image:
+        linear-gradient(
+            rgba(7, 28, 44, 0.82),
+            rgba(7, 28, 44, 0.82)
+        ),
+        url("../images/footer-bg.png") !important;
+
+    background-size: cover !important;
+    background-position: center center !important;
+    background-repeat: no-repeat !important;
+}
+
+/* =================================
+   FRANCHISE HERO
+================================= */
+
+.franchise-hero {
+    padding: 80px 0;
+    background: #f5f8fc;
+}
+
+.franchise-hero-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    gap: 60px;
+}
+
+/* LEFT CONTENT */
+
+.franchise-hero-content {
+    max-width: 600px;
+}
+
+.franchise-hero-content .section-subtitle {
+    color: #174a7e;
+    font-weight: 700;
+    letter-spacing: 2px;
+    margin-bottom: 15px;
+}
+
+.franchise-hero-content h1 {
+    font-size: 58px;
+    line-height: 1.1;
+    color: #092c50;
+    margin-bottom: 25px;
+}
+
+.franchise-hero-content h1 span {
+    display: block;
+    color: #1769aa;
+}
+
+.franchise-hero-content > p:last-child {
+    font-size: 18px;
+    line-height: 1.7;
+    color: #555;
+}
+
+
+/* RIGHT IMAGE */
+
+.franchise-hero-image {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.franchise-hero-image img {
+    width: 100%;
+    max-width: 550px;
+    height: 400px;
+    object-fit: cover;
+    border-radius: 20px;
+    display: block;
+    box-shadow: 0 15px 40px rgba(0, 0, 0, 0.15);
+}
+
+.franchise-hero {
+    padding: 80px 0;
+    background: #ffffff;
+}
+
+.franchise-hero-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    gap: 40px;
+}
+
+.franchise-hero-content {
+    max-width: 600px;
+}
+
+.franchise-hero-content .section-subtitle {
+    color: #1769aa;
+    font-weight: 700;
+    letter-spacing: 2px;
+    margin-bottom: 15px;
+}
+
+.franchise-hero-content h1 {
+    font-size: 58px;
+    line-height: 1.1;
+    color: #092c50;
+    margin-bottom: 25px;
+}
+
+.franchise-hero-content h1 span {
+    display: block;
+    color: #1769aa;
+}
+
+.franchise-hero-content > p:last-child {
+    font-size: 18px;
+    line-height: 1.7;
+    color: #555;
+}
+
+
+/* TRANSPARENT IMAGE */
+
+.franchise-hero-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.franchise-hero-image img {
+    width: 100%;
+    max-width: 550px;
+    height: auto;
+    display: block;
+
+    /* NO BOX */
+    border: none;
+    border-radius: 0;
+    box-shadow: none;
+    background: transparent;
+}
+
+@media (max-width: 768px) {
+
+    .franchise-hero {
+        padding: 60px 20px;
+    }
+
+    .franchise-hero-grid {
+        grid-template-columns: 1fr;
+        gap: 30px;
+    }
+
+    .franchise-hero-content {
+        text-align: center;
+    }
+
+    .franchise-hero-content h1 {
+        font-size: 40px;
+    }
+
+    .franchise-hero-image img {
+        max-width: 400px;
+    }
+
+}
+
+.about-hero {
+    min-height: 500px;
+
+    display: flex;
+    align-items: center;
+
+    background-image: url("../images/about-hero.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    color: white;
+}
+
+.about-hero-content {
+    max-width: 750px;
+    padding: 100px 0;
+}
+
+.about-hero-content h1 {
+    color: var(--fitform-navy);
+}
+
+.about-hero-content > p:last-child {
+    color: var(--fitform-gold);
+    line-height: 1.7;
+}
+
+
+
+
+.footer-social {
+    margin-top: 30px;
+    text-align: left;
+}
+
+.footer-social h3 {
+    color: #ffffff;
+    font-size: 28px;
+    margin-bottom: 12px;
+}
+
+.footer-social p {
+    color: #d5e0eb;
+    font-size: 16px;
+    margin-bottom: 18px;
+}
+
+.social-links {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+}
+
+.social-links a {
+    width: 52px;
+    height: 52px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background: #ffffff;
+    color: #092c50;
+
+    border-radius: 50%;
+    text-decoration: none;
+
+    font-size: 21px;
+
+    transition: all 0.3s ease;
+}
+
+.social-links a:hover {
+    background: #1769aa;
+    color: #ffffff;
+    transform: translateY(-3px);
+}
+
+
+@media (max-width: 768px) {
+    .footer-container {
+        grid-template-columns: 1fr;
+    }
+
+    .footer-social {
+        text-align: center;
+    }
+
+    .social-links {
+        justify-content: center;
+    }
+}
+
+/* =========================
+   MOBILE ABOUT HERO
+========================= */
+
+@media (max-width: 768px) {
+
+    .about-hero {
+        min-height: 650px;
+
+        background-size: cover;
+        background-position: 65% center;
+    }
+
+    .about-hero-content {
+        padding: 80px 20px;
+        max-width: 100%;
+    }
+
+    .about-hero-content .section-subtitle {
+        font-size: 14px;
+        letter-spacing: 2px;
+    }
+
+    .about-hero-content h1 {
+        font-size: 38px;
+        line-height: 1.15;
+        margin-bottom: 20px;
+    }
+
+    .about-hero-content > p:last-child {
+        font-size: 16px;
+        line-height: 1.6;
+    }
+}
+
+/* =========================================================
+   ABOUT PAGE - MOBILE RESPONSIVE
+   ========================================================= */
+
+@media (max-width: 768px) {
+
+    /* -----------------------------------------
+       GENERAL
+       ----------------------------------------- */
+
+    .container {
+        width: 100%;
+        max-width: 100%;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+
+    /* -----------------------------------------
+       NAVIGATION
+       ----------------------------------------- */
+
+    .navbar {
+        position: relative;
+    }
+
+    .nav-container {
+        flex-direction: column;
+        align-items: center;
+        padding: 15px 20px;
+    }
+
+    .logo {
+        justify-content: center;
+        margin-bottom: 15px;
+    }
+
+    .logo img {
+        width: 50px;
+        height: auto;
+    }
+
+    .logo-text strong {
+        font-size: 22px;
+    }
+
+    .logo-text span {
+        font-size: 9px;
+        letter-spacing: 2px;
+    }
+
+    .nav-menu {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 8px 18px;
+    }
+
+    .nav-menu a {
+        font-size: 14px;
+        padding: 5px 0;
+        white-space: nowrap;
+    }
+
+
+    /* -----------------------------------------
+       ABOUT HERO
+       ----------------------------------------- */
+
+    .about-hero {
+        min-height: 650px;
+
+        display: flex;
+        align-items: center;
+
+        background-size: cover;
+
+        /*
+           Keep the important uniform image
+           towards the right side.
+        */
+        background-position: 65% center;
+
+        position: relative;
+    }
+
+
+    /*
+       Dark overlay for better text visibility
+    */
+    .about-hero::before {
+        content: "";
+        position: absolute;
+        inset: 0;
+
+        background: rgba(5, 35, 65, 0.58);
+
+        z-index: 0;
+    }
+
+
+    .about-hero .container {
+        position: relative;
+        z-index: 1;
+    }
+
+
+    .about-hero-content {
+        max-width: 100%;
+        padding: 80px 0 60px;
+        text-align: left;
+    }
+
+
+    .about-hero-content .section-subtitle {
+        color: #ffffff;
+        font-size: 14px;
+        letter-spacing: 2px;
+        margin-bottom: 15px;
+    }
+
+
+    .about-hero-content h1 {
+        color: #ffffff;
+
+        font-size: 38px;
+        line-height: 1.15;
+
+        margin-bottom: 22px;
+    }
+
+
+    .about-hero-content > p:last-child {
+        color: #ffffff;
+
+        font-size: 16px;
+        line-height: 1.7;
+
+        max-width: 500px;
+    }
+
+
+    /* -----------------------------------------
+       ABOUT COMPANY
+       ----------------------------------------- */
+
+    .about-company {
+        padding: 60px 0;
+    }
+
+    .about-company-container {
+        display: flex;
+        flex-direction: column;
+        gap: 35px;
+    }
+
+
+    .about-image {
+        width: 100%;
+        order: 1;
+    }
+
+    .about-image img {
+        width: 100%;
+        height: auto;
+        display: block;
+
+        border-radius: 12px;
+    }
+
+
+    .about-content {
+        width: 100%;
+        order: 2;
+    }
+
+    .about-content .section-subtitle {
+        font-size: 14px;
+    }
+
+    .about-content h2 {
+        font-size: 30px;
+        line-height: 1.2;
+        margin-bottom: 18px;
+    }
+
+    .about-content p {
+        font-size: 16px;
+        line-height: 1.7;
+    }
+
+
+    /* -----------------------------------------
+       SECTION HEADINGS
+       ----------------------------------------- */
+
+    .section-heading {
+        text-align: center;
+        margin-bottom: 35px;
+    }
+
+    .section-heading .section-subtitle {
+        font-size: 14px;
+    }
+
+    .section-heading h2 {
+        font-size: 30px;
+        line-height: 1.25;
+    }
+
+    .section-heading > p:last-child {
+        font-size: 16px;
+        line-height: 1.6;
+    }
+
+
+    /* -----------------------------------------
+       OUR APPROACH
+       ----------------------------------------- */
+
+    .about-approach {
+        padding: 60px 0;
+    }
+
+    .approach-grid {
+        display: grid;
+
+        grid-template-columns: 1fr;
+
+        gap: 20px;
+    }
+
+    .approach-card {
+        width: 100%;
+        padding: 25px;
+    }
+
+    .approach-card h3 {
+        font-size: 20px;
+        line-height: 1.3;
+    }
+
+    .approach-card p {
+        font-size: 15px;
+        line-height: 1.6;
+    }
+
+
+    /* -----------------------------------------
+       WHY FITFORM
+       ----------------------------------------- */
+
+    .about-values {
+        padding: 60px 0;
+    }
+
+    .values-grid {
+        display: grid;
+
+        grid-template-columns: 1fr;
+
+        gap: 20px;
+    }
+
+    .value-card {
+        width: 100%;
+        padding: 25px;
+    }
+
+    .value-card h3 {
+        font-size: 21px;
+    }
+
+    .value-card p {
+        font-size: 15px;
+        line-height: 1.6;
+    }
+
+
+    /* -----------------------------------------
+       ABOUT CTA
+       ----------------------------------------- */
+
+    .about-cta {
+        padding: 60px 20px;
+    }
+
+    .about-cta-content {
+        text-align: center;
+    }
+
+    .about-cta-content h2 {
+        font-size: 30px;
+        line-height: 1.25;
+    }
+
+    .about-cta-content p {
+        font-size: 16px;
+        line-height: 1.6;
+    }
+
+    .about-cta-content .primary-button {
+        display: inline-block;
+        margin-top: 10px;
+    }
+
+
+    /* -----------------------------------------
+       FOOTER
+       ----------------------------------------- */
+
+    .footer {
+        padding: 50px 0 20px;
+    }
+
+    .footer-container {
+        display: grid;
+
+        grid-template-columns: 1fr;
+
+        gap: 40px;
+    }
+
+
+    .footer-about,
+    .footer-links,
+    .footer-contact {
+        width: 100%;
+        text-align: center;
+    }
+
+
+    .footer-logo {
+        justify-content: center;
+    }
+
+
+    .footer-about p {
+        max-width: 500px;
+        margin-left: auto;
+        margin-right: auto;
+
+        font-size: 15px;
+        line-height: 1.7;
+    }
+
+
+    .footer-links h3,
+    .footer-contact h3,
+    .footer-social h3 {
+        font-size: 21px;
+    }
+
+
+    .footer-links {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+
+    .footer-links a {
+        margin-bottom: 8px;
+    }
+
+
+    /* -----------------------------------------
+       SOCIAL MEDIA
+       ----------------------------------------- */
+
+    .footer-social {
+        text-align: center;
+    }
+
+    .footer-social p {
+        font-size: 15px;
+    }
+
+    .social-links {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 15px;
+        margin-top: 15px;
+    }
+
+
+    /* -----------------------------------------
+       FOOTER BOTTOM
+       ----------------------------------------- */
+
+    .footer-bottom {
+        text-align: center;
+        padding-top: 20px;
+    }
+
+    .footer-bottom p {
+        font-size: 13px;
+        line-height: 1.5;
+    }
+
+
+    /* -----------------------------------------
+       FLOATING WHATSAPP BUTTON
+       ----------------------------------------- */
+
+    .whatsapp-float {
+        right: 15px;
+        bottom: 75px;
+
+        padding: 12px 18px;
+
+        border-radius: 30px;
+    }
+
+    .whatsapp-text {
+        font-size: 14px;
+    }
+
+
+    /* -----------------------------------------
+       BACK TO TOP
+       ----------------------------------------- */
+
+    .top-float {
+        right: 15px;
+        bottom: 15px;
+
+        width: 48px;
+        height: 48px;
+    }
+
+}
+
+
+/* =========================================================
+   SMALL MOBILE DEVICES
+   ========================================================= */
+
+@media (max-width: 480px) {
+
+    /* Navigation */
+
+    .nav-container {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .logo img {
+        width: 45px;
+    }
+
+    .logo-text strong {
+        font-size: 20px;
+    }
+
+    .logo-text span {
+        font-size: 8px;
+        letter-spacing: 1.5px;
+    }
+
+    .nav-menu {
+        gap: 6px 14px;
+    }
+
+    .nav-menu a {
+        font-size: 13px;
+    }
+
+
+    /* Hero */
+
+    .about-hero {
+        min-height: 620px;
+
+        /*
+           Adjust image position for
+           smaller mobile screens.
+        */
+        background-position: 68% center;
+    }
+
+    .about-hero-content {
+        padding: 70px 0 50px;
+    }
+
+    .about-hero-content .section-subtitle {
+        font-size: 13px;
+    }
+
+    .about-hero-content h1 {
+        font-size: 32px;
+        line-height: 1.15;
+    }
+
+    .about-hero-content > p:last-child {
+        font-size: 15px;
+        line-height: 1.6;
+    }
+
+
+    /* About Company */
+
+    .about-company {
+        padding: 50px 0;
+    }
+
+    .about-content h2 {
+        font-size: 27px;
+    }
+
+
+    /* Section headings */
+
+    .section-heading h2 {
+        font-size: 27px;
+    }
+
+
+    /* Approach */
+
+    .about-approach {
+        padding: 50px 0;
+    }
+
+    .approach-card {
+        padding: 22px;
+    }
+
+
+    /* Values */
+
+    .about-values {
+        padding: 50px 0;
+    }
+
+    .value-card {
+        padding: 22px;
+    }
+
+
+    /* CTA */
+
+    .about-cta {
+        padding: 50px 20px;
+    }
+
+    .about-cta-content h2 {
+        font-size: 27px;
+    }
+
+
+    /* WhatsApp */
+
+    .whatsapp-float {
+        right: 12px;
+        bottom: 70px;
+
+        padding: 10px 15px;
+    }
+
+    .whatsapp-text {
+        font-size: 13px;
+    }
+
+
+    /* Back to top */
+
+    .top-float {
+        right: 12px;
+        bottom: 12px;
+
+        width: 45px;
+        height: 45px;
+    }
+
 }
