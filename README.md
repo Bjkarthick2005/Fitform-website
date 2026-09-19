@@ -10,7 +10,7 @@ Live Website: Add your Netlify URL here
 
 Example:
 
-https://your-fitform-website.netlify.app/
+https://fitformwebsite.netlify.app/
 
 ---
 
